@@ -1,7 +1,7 @@
 {
-  "name": "web-worker",
+  "name": "@aspectron/web-worker",
   "version": "1.0.0",
-  "description": "Consistent Web Workers in browser and Node.",
+  "description": "Consistent Web Workers in browser and Node (NWJS-compatible fork)",
   "main": "./cjs/node.js",
   "browser": "./cjs/browser.js",
   "exports": {
@@ -25,7 +25,7 @@
       "babel-plugin-commonjs-lite"
     ]
   },
-  "repository": "developit/web-worker",
+  "repository": "aspectron/web-worker",
   "keywords": [
     "worker",
     "worker_threads",
@@ -36,7 +36,7 @@
   ],
   "authors": [],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/developit/web-worker",
+  "homepage": "https://github.com/aspectron/web-worker",
   "eslintConfig": {
     "extends": "developit",
     "rules": {
